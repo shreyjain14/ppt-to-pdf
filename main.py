@@ -38,7 +38,7 @@ def combine_all_text():
 
         print(f'[{index + 1}/{f_len}] Extracted from {file}')
 
-        with open(f'G:\\My Drive\\Study\\UNIX\\txt\\{file}.txt', 'w', encoding='utf-8') as f:
+        with open(f'G:\\My Drive\\Study\\UNIX\\txt\\{file[:-4]}.txt', 'w', encoding='utf-8') as f:
             f.write(text)
 
 
