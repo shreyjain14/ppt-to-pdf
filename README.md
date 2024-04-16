@@ -1,0 +1,1 @@
+Change the `IN` variable to the folder with ppts in it and the `OUT` variable to the folder to output the files
